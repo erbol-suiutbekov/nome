@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+.header2 {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.header3 {
+  display: flex;
+  gap: 60px;
+}
+.header h1 {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 48px */
+  letter-spacing: 1px;
+}
+.header p {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Nunito Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 22.8px */
+  letter-spacing: 1px;
+}
+.hero1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero1 a {
+  color: #f7515c;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0%; /* 0px */
+  text-decoration: none;
+}
+
+.hero1 h1 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 650px;
+  padding: 67px 0 47px 0;
+}
+.hero1 button {
+  width: 207px;
+  height: 78px;
+  flex-shrink: 0;
+  background: orange;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hero1 h2 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 0 0 0;
+}
+.hero2 {
+  display: flex;
+  align-items: center;
+}
+.motion2 h1 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.motion2 h2 {
+  font-family: Montserrat;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0 0 55px 0;
+}
+.motion2 p {
+  color: rgba(40, 42, 48, 0.5);
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+}
+.motion2 button {
+  width: 230px;
+  height: 78px;
+  flex-shrink: 0;
+  background: #f7515c;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 40px;
+}
+.motion {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+.motion2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tet1 {
+  position: absolute;
+}
+.tet {
+  margin-left: 90px;
+  margin-top: 350px;
+}
+.tet2 {
+  margin-left: -570px;
+  padding: 100px 0 0 0;
+}
+.vefa h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 200px;
+}
+.vefa1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+}
+.vefa2 {
+  width: 449px;
+  height: 199px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  margin-top: -470px;
+  margin-left: -76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.vefa2 h2 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.vefa2 p {
+  color: rgba(40, 42, 48, 0.4);
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 238px;
+  margin-top: 12px;
+}
+.hhh {
+  margin-top: -40px;
+}
+.vefa4 {
+  width: 449px;
+  height: 199px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  margin-top: -650px;
+  margin-left: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.vefa5 {
+  width: 449px;
+  height: 199px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  margin-top: -130px;
+  margin-left: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.vefa4 h2 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.vefa4 p {
+  color: rgba(40, 42, 48, 0.4);
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 238px;
+  margin-top: 12px;
+}
+.hhh {
+  margin-top: -40px;
+}
+.vefa5 h2 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.vefa5 p {
+  color: rgba(40, 42, 48, 0.4);
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 238px;
+  margin-top: 12px;
+}
+.hhh {
+  margin-top: -40px;
+}
+.termin {
+  position: relative;
+  margin-top: -124px;
+  margin-left: 180px;
+}
+.homer {
+  margin-top: 160px;
+}
+.nomer h1 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.nomer1 {
+  display: flex;
+  justify-content: space-between;
+}
+.jok {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+}
+.nomer2 h1 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -70px;
+  margin-left: 45px;
+}
+.nomer2 p {
+  color: rgba(40, 42, 48, 0.3);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 120px;
+}
+
+.nomer2 {
+  display: flex;
+  overflow-x: scroll;
+}
+.nomer2 img {
+  margin-left: -90px;
+}
+.vollei {
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.vollei1 {
+  color: #282a30;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 110px;
+}
+.vollei1 button {
+  width: 240px;
+  height: 90px;
+  flex-shrink: 0;
+  background: #f7515c;
+  color: #ffeded;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.div {
+  width: 1160px;
+  height: 2px;
+  flex-shrink: 0;
+  background: black;
+  margin-top: 148px;
+}
+.footer h1 {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: SF Pro Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 31.2px */
+  letter-spacing: 1px;
+  padding: 0 0 10px 0;
+}
+.footer p {
+  color: rgba(40, 42, 48, 0.8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: 1px;
+  margin-top: 27px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
